@@ -43,3 +43,5 @@ app.delete('/api/notes/:id', (req, res) => {
     console.log('delete', notes)
     res.json(notes)
 });
+
+module.exports =app;
